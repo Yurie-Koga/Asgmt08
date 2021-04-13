@@ -87,9 +87,9 @@ func farm() {
         let row = readLine()!.split(separator: " ").map { Int($0)! }
         tomatoMap.append(row)
     }
-    for i in 0..<tomatoMap.count {
-        print(tomatoMap[i])
-    }
+//    for i in 0..<tomatoMap.count {
+//        print(tomatoMap[i])
+//    }
 
     func bfs2(squares: [Square], dayCount: inout Int) {
         var q = Queue<[Square]>()
